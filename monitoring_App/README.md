@@ -3,7 +3,7 @@
 
 Deploy a monitoring application in a k8s Cluster on  AWS
 
-## Table of Contents
+## Steps
 
 - [Run the application locally](#run-the-application-locally)
 - [AWS resources provisioning](#aws-resources-provisioning)
@@ -31,7 +31,7 @@ Deploy a monitoring application in a k8s Cluster on  AWS
 
 ## AWS resources provisioning
 
-1. **Create ERC Repository:**
+1. **Create ECR Repository:**
     - Install and configure  aws CLI
     ```sh
     curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"                                                         
